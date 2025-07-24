@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismaflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="container">
+        <header>
+            <h1 class="titulo">Hora de estudar</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="matematica1.html">Matemática</a></li>
+                <li><a href="contato.html"> Contato</a></li>
+                <li><a href="horario.html"> Horário</a></li>
+                <li><a href="comochegar.html"> Como Chegar</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1 class="tit2">Contato</h1>
+            <form action="resposta.html">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="formulario">
+                    <label class="formesq" for="nome">Nome:</label>
+                    <input class="formdir" type="text" placeholder="Digite o seu nome" id="nome">
+
+                </div>
+                 <div class="formulario">
+                    <label class="formesq" for="e-mail">E-mail:</label>
+                    <input class="formdir" type="e-mail" placeholder="Digite o seu e-mail" id="e-mail">
+
+                </div>
+                 <div class="formulario">
+                    <label class="formesq" for="idade">Idade:</label>
+                    <input class="formdir" type="number" placeholder="Digite sua idade" id="idade">
+
+                </div>
+                <div class="formulario">
+                    <label class="formesq" for="">Sexo:</label>
+                    <div class="formdir">
+                      <input class="formdir" type="radio" name="Sexo" id="masculino">
+                      <label for="masculino">Masculino</label>
+                      <input class="formdir" type="radio" name="Sexo" id="feminino">
+                      <label for="feminino">Feminino</label>
+                    </div>
+                    
+                </div>
+                <div class="formulario">
+                    <label class="formesq" for="telefone">Telefone:</label>
+                    <input class="formdir" type="tel" placeholder="Digite o seu telefone" id="telefone">
+
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem</legend>
+                <div class="formulario">
+                    <label class="formesq">Assunto:</label>
+                    <select class="formdir">
+                        <option>Críticas</option>
+                        <option>Sugestões</option>
+                        <option>Outros</option>
+                    </select>
+
+                </div>
+                <div class="formulario">
+                    <label  for="msg" class="fomresq">Mensagem:</label>
+                    <textarea  id="msg" class="formdir"></textarea>
+                    <button>Enviar informações</button>
+
+                </div>
+                  
+            </fieldset>
+        </form>
+           
+        </section>
+        
+        
+        </div>
+        
+    </body>
+</html>
